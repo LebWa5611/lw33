@@ -2,13 +2,14 @@ import java.util.ArrayList;
 
 public class Store {
     String shop;
+
     public Store(String shop){
         this.shop = shop;
     }
 
-    ArrayList<Product> products = new ArrayList<>();
+    ArrayList<Product> products = new ArrayList<>();//products (список продуктів у магазині, тип List<Product>).
     void addProduct(Product product){
-        products.add(product);
+        products.add(product);// додає продукт до магазину;
 
     }
     void showProducts(){
@@ -19,6 +20,6 @@ public class Store {
         System.out.println("All products" + "--"  + shop);
         System.out.println("========");
 
+        }
     }
 
-}

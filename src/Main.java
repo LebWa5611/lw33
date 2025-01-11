@@ -26,6 +26,8 @@ public class Main {
 
         Customer customer = new Customer("Artiom");
         customer.addToCart(product1);
+        customer.addToCart(product2);
+        customer.addToCart(product3);
         customer.showProducts();
         customer.remove(product1);
         customer.showProducts();
